@@ -13,19 +13,29 @@ hr {
   border-color: rgba(255, 249, 251, 0.4);
 }
 
+img {
+  border-radius: 25px;
+}
+
 a {
-  color: #f3a14b;
+  color: #6c757d;
 }
 a:hover {
   color: #93ada4;
   text-decoration: none;
 }
 
+.company-name {
+  font-family: 'Courier New', monospace;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
+
 header.masthead {
   padding-top: 6rem;
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #eadfc9;
+  background-color: rgb(170, 170, 170);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -34,7 +44,7 @@ header.masthead {
   font-weight: 450;
   font-size: 1.5rem;
   line-height: 1.2;
-  color: #dc7646;
+  color: rgb(0, 0, 0);
 }
 .masthead-full-name {
   font-family: 'Anton', sans-serif;
@@ -42,7 +52,7 @@ header.masthead {
   font-size: 2.75rem;
 }
 .last-name-highlight {
-  color: #f3a14b;
+  color: black;
 }
 @media (max-width: 576px) {
   .masthead-full-name {
@@ -53,7 +63,7 @@ header.masthead {
 }
 
 .bg-primary {
-  background-color: #eadfc9 !important;
+  background-color: rgba(139, 139, 139, 0.5) !important;
 }
 
 .img-profile {
@@ -94,7 +104,7 @@ header.masthead {
 }
 
 .text-primary {
-  color: #f3a14b !important;
+  color: #343a40 !important;
 }
 
 .text-dark {
@@ -131,7 +141,7 @@ header.masthead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #dc7646;
+  background-color: #a5a5a5;
 }
 
 .dev-icons {
@@ -141,7 +151,7 @@ header.masthead {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  background-color: #eadfc9;
+  background-color: #6c757d;
 }
 
 /* CV navbar styling */
@@ -153,7 +163,7 @@ header.masthead {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #f3a14b;
+  color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: #93ada4;
@@ -188,25 +198,25 @@ header.masthead {
 
 .btn-primary {
   color: #f8f9fa;
-  background-color: #f3a14b;
-  border-color: #f3a14b;
+  background-color: #929292;
+  border-color: #929292;
 }
 
 .btn-primary:hover {
-  color: #f8f9fa;
-  background-color: #93ada4;
-  border-color:#93ada4;
+  color: #5f5f5f;
+  background-color: #f8f9fa;
+  border-color:#f8f9fa;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #bfdbcf;
-  background-color: #93ada4;
-  border-color: #93ada4;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #bfdbcf;
-  background-color: #93ada4;
-  border-color: #93ada4;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 .btn-outline-primary {
   color: #DB995A;
@@ -317,13 +327,13 @@ header.masthead {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 1.25rem;
-  color: #dc7646;
+  color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   background-color: #bfdbcf;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #dc7646;
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 700;
   letter-spacing: 0.0625em;
   font-family: 'Anton', sans-serif;
@@ -331,15 +341,15 @@ header.masthead {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 0.95rem;
-  color: #dc7646;
+  color: rgba(0, 0, 0, 0.5);
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active{
-  color: #DB995A;
+  color: rgba(255, 255, 255, 0.5);
 } 
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #DB995A;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 992px) {
@@ -361,7 +371,7 @@ header.masthead {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #eadfc9;
+    background-color: rgba(255, 255, 255, 0.5);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -384,6 +394,17 @@ header.masthead {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
+}
+.portfolio-link {
+  background-color: white;
+  border-radius: 25px;
+}
+.portfolio-item {
+  border: dashed 4px rgb(145, 145, 145);
+  border-radius: 25px;
+}
+.portfolio-caption {
+  border-radius: 25px;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
