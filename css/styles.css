@@ -454,6 +454,12 @@ header.masthead {
   border: 5px black solid !important;
   border-radius: 10px;
 }
+#modal2, #modal3 {
+  margin-top: 8rem;
+}
+.bottom-buffer {
+  margin-bottom: 3rem !important;
+}
 .portfolio-modal .modal-content {
   padding-top: 6rem;
   padding-bottom: 6rem;
