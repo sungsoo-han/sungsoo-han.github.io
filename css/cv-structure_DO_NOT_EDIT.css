@@ -661,6 +661,10 @@ h6, .h6 {
   flex-shrink: 0 !important;
 }
 
+.last-one {
+  margin-top: 2rem !important;
+}
+
 .flex-shrink-1 {
   flex-shrink: 1 !important;
 }
