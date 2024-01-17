@@ -113,6 +113,10 @@ header.masthead {
   color: #343a40 !important;
 }
 
+.modal-body {
+  text-align: left;
+}
+
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
